@@ -1,4 +1,4 @@
-// FilterDropdown.jsx
+
 import React from "react";
 import { Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function FilterDropdown({ title, options }) {
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="secondary" id={`dropdown-${title.toLowerCase()}`}>
+      <Dropdown.Toggle variant="dark" id={`dropdown-${title.toLowerCase()}`}>
         {title}
       </Dropdown.Toggle>
       <Dropdown.Menu className="bg-dark text-light dropdown-menu"> {}
